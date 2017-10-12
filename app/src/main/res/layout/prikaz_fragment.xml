@@ -23,22 +23,22 @@ tools:context="com.example.matija.myapplication.Activity.LogInActivity">
         android:layout_marginEnd="8dp">
 
         <TextView
-            android:id="@+id/textView4"
+            android:textStyle="bold"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Kategorija" />
 
         <TextView
-            android:id="@+id/textView3"
             android:layout_width="0dp"
+            android:textStyle="bold"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Naziv" />
 
         <TextView
-            android:id="@+id/textView2"
             android:layout_width="0dp"
+            android:textStyle="bold"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Datum" />
@@ -46,6 +46,7 @@ tools:context="com.example.matija.myapplication.Activity.LogInActivity">
         <TextView
             android:id="@+id/textView"
             android:layout_width="0dp"
+            android:textStyle="bold"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Cijena" />
@@ -184,7 +185,6 @@ tools:context="com.example.matija.myapplication.Activity.LogInActivity">
         app:layout_constraintLeft_toLeftOf="parent">
 
         <TextView
-            android:id="@+id/tvvv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
