@@ -65,6 +65,7 @@ public class NotificationFragment extends Fragment {
         if (args != null) {
             user = (UsersTable) args.getSerializable("user");
         }
+        checkTimedNotifications();
     }
 
     @Override

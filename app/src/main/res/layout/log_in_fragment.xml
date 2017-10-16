@@ -23,6 +23,8 @@
 
 
     <EditText
+        android:padding="10dp"
+        android:background="@drawable/textbox_shape"
         android:id="@+id/etIme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -46,6 +48,8 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:ems="10"
+        android:padding="10dp"
+        android:background="@drawable/textbox_shape"
         android:hint="Lozinka"
         android:imeOptions="actionDone"
         android:inputType="textPassword"
